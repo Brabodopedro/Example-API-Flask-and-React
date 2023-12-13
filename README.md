@@ -1,5 +1,7 @@
 # Example-API-Flask
 
+Back-End
+
 Baixao o instalador de ambiente virtual
 1-pip install virtualenv 
 
@@ -16,3 +18,17 @@ Executar o codigo
 5- python src/app.py
 
 OBS: Precisa ter MongoDB instalado para rodar a aplicação
+
+Front-End
+
+1-node instalado
+
+Abrir a pasta
+2- cd web
+
+Dependencias necessárias 
+3- npm install react-router-dom bootswatch
+   npm install
+
+Executar o react
+3- npm start

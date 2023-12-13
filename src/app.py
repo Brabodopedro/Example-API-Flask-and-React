@@ -45,7 +45,7 @@ def getUser(id):
         'password': user['password']
     })
 
-@app.route('/user/<id>', methods=['DELETE'])
+@app.route('/users/<id>', methods=['DELETE'])
 def deleteUser(id):
     db.delete_one({'_id': ObjectId(id)})
     return jsonify({'msg': 'Usuario Deletado'})
@@ -61,5 +61,3 @@ def updateUser(id):
 
 if __name__ == "__main__":
     app.run(debug=True)
-    
-    
